@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  overflow-x: hidden;
+}
+.white-svg {
+  filter: brightness(1000%) saturate(0) contrast(1000%) invert(0);
+}

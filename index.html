@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./build/output.css" />
+    <title>Fylo Dark</title>
+  </head>
+  <body class="font-opSans bg-dBlue2">
+    <!-- header -->
+    <header class="bg-dBlue1">
+      <nav class="container mx-auto p-6">
+        <div class="flex items-center justify-between">
+          <div class="pt-2 lg:pt-5">
+            <img
+              src="./images/logo.svg"
+              alt="fylo logo"
+              class="w-[65%] lg:w-[80%]"
+            />
+          </div>
+          <div
+            class="flex space-x-3 md:space-x-7 lg:space-x-14 md:text-base capitalize text-sm whitespace-nowrap text-[#DAD8D8]"
+          >
+            <a href="#"
+              ><span class="py-1 hover:border-b-2 hover:border-white"
+                >features</span
+              ></a
+            >
+            <a href="#"
+              ><span class="py-1 hover:border-b-2 hover:border-white"
+                >team</span
+              ></a
+            >
+            <a href="#"
+              ><span class="py-1 hover:border-b-2 hover:border-white"
+                >sign in</span
+              ></a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- main -->
+    <main class="relative">
+      <!-- hero section -->
+      <section class="bg-dBlue1 pt-10">
+        <div>
+          <img
+            src="./images/illustration-intro.png"
+            alt="illustration-intro"
+            class="px-7 mx-auto"
+          />
+        </div>
+      </section>
+      <section class="bg-dBlue1 relative">
+        <img
+          src="./images/bg-curvy-mobile.svg"
+          alt="bg-curvy-mobile"
+          class="w-full lg:hidden"
+        />
+        <img
+          src="./images/bg-curvy-desktop.svg"
+          alt="bg-curvy-desktop"
+          class="w-full hidden lg:block"
+        />
+        <div
+          class="text-white max-w-2xl lg:max-w-5xl mx-auto px-4 top-5 right-0 left-0 absolute"
+        >
+          <h1
+            class="text-2xl md:text-4xl lg:text-5xl text-center tracking-wide font-raleway capitalize font-semibold mb-6"
+          >
+            all your files in one secure location, accessible anywhere.
+          </h1>
+          <div class="max-w-2xl mx-auto">
+            <p
+              class="text-center capitalize text-[#DAD8D8] md:text-xl text-base mb-7"
+            >
+              fylo stores all your most important files in one secure location.
+              access them wherever you need, share and collaborate with friends
+              family, and co-workers.
+            </p>
+            <a
+              href="#"
+              class="text-white font-semibold block w-56 text-center mx-auto whitespace-nowrap bg-gradient-to-r from-[#65e2d9] to-[#339ecc] capitalize rounded-full px-6 py-3 hover:to-cyan-200"
+              >get started</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- access section -->
+      <section class="bg-dBlue2 mt-72 md:mt-20 lg:mt-0 pb-32">
+        <div class="container mx-auto">
+          <div class="flex flex-wrap items-center">
+            <div class="w-full md:w-1/2">
+              <div>
+                <img
+                  src="./images/icon-access-anywhere.svg"
+                  alt="icon-access-anywhere"
+                  class="mx-auto mb-9"
+                />
+              </div>
+              <div class="max-w-2xl md:max-w-md px-4 mx-auto">
+                <h1
+                  class="text-white capitalize font-raleway font-semibold text-center text-xl lg:text-3xl mb-3"
+                >
+                  access your files, anywhere
+                </h1>
+                <p
+                  class="text-center text-base lg:text-md capitalize text-white mb-16"
+                >
+                  the ability to use a smartphone, tablet, or computer to access
+                  your account means your files follow you everywhere.
+                </p>
+              </div>
+            </div>
+            <div class="w-full md:w-1/2">
+              <div>
+                <img
+                  src="./images/icon-security.svg"
+                  alt="icon-security"
+                  class="mx-auto mb-9"
+                />
+              </div>
+              <div class="max-w-2xl md:max-w-md px-4 mx-auto">
+                <h1
+                  class="text-white capitalize font-raleway font-semibold text-center text-xl lg:text-3xl mb-3"
+                >
+                  security you can trust
+                </h1>
+                <p
+                  class="text-center text-base lg:text-md capitalize text-white mb-16"
+                >
+                  2-factor authentication and user-controlled encryption are
+                  just a couple of the security features we allow to help secure
+                  your files.
+                </p>
+              </div>
+            </div>
+            <div class="w-full md:w-1/2">
+              <div>
+                <img
+                  src="./images/icon-collaboration.svg"
+                  alt="icon-collaboration"
+                  class="mx-auto mb-9"
+                />
+              </div>
+              <div class="max-w-2xl md:max-w-md px-4 mx-auto">
+                <h1
+                  class="text-white capitalize font-raleway font-semibold text-center text-xl lg:text-3xl mb-3"
+                >
+                  real-time collaboration
+                </h1>
+                <p
+                  class="text-center text-base lg:text-md capitalize text-white mb-16"
+                >
+                  securely share files and folders with friends, family and
+                  colleagues for live collaboration. no email attachments
+                  required.
+                </p>
+              </div>
+            </div>
+            <div class="w-full md:w-1/2">
+              <div>
+                <img
+                  src="./images/icon-any-file.svg"
+                  alt="icon-any-file"
+                  class="mx-auto mb-9"
+                />
+              </div>
+              <div class="max-w-2xl md:max-w-md px-4 mx-auto">
+                <h1
+                  class="text-white capitalize font-raleway font-semibold text-center text-xl lg:text-3xl mb-3"
+                >
+                  store any type of file
+                </h1>
+                <p
+                  class="text-center text-base lg:text-md capitalize text-white mb-16"
+                >
+                  whether you're sharing holidays photos or work documents, fylo
+                  has you covered allowing for all file types to be securely
+                  stored and shared.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- stay productive section -->
+      <section class="pb-32">
+        <div class="container mx-auto">
+          <div class="flex flex-col lg:flex-row items-center">
+            <div class="w-full lg:w-1/2">
+              <img
+                src="./images/illustration-stay-productive.png"
+                alt="illustration-stay-productive"
+                class="px-7 mx-auto mb-10"
+              />
+            </div>
+            <div class="w-full lg:w-1/2 max-w-2xl mx-auto px-4">
+              <h1
+                class="text-white capitalize lg:text-left font-raleway md:text-4xl lg:text-5xl font-semibold text-center text-2xl mb-5"
+              >
+                stay productive, wherever you are
+              </h1>
+              <p
+                class="text-base lg:text-left text-center md:text-xl capitalize text-white mb-5"
+              >
+                never let location be an issue when accessing your files. fylo
+                has you covered for all of your file storage needs.
+              </p>
+              <p
+                class="text-base lg:text-left text-center md:text-xl capitalize mb-6 text-white"
+              >
+                securely share files and folders with friends, family and
+                colleagues for live collaboration. no email attachments
+                required.
+              </p>
+              <a
+                href="#"
+                class="capitalize justify-center hover:text-white transition ease-in duration-150 lg:justify-start flex items-center text-[#65e2d9]"
+              >
+                <span
+                  class="border-b-2 hover:text-white hover:border-white transition ease-in duration-150 border-[#65e2d9]"
+                  >see how fylo works
+                  <i class="fa-solid fa-arrow-right pl-1"></i
+                ></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- founder section -->
+      <section class="pb-80">
+        <div class="container mx-auto">
+          <div class="flex justify-center flex-wrap">
+            <div class="w-full md:w-1/2 lg:w-1/3 px-5">
+              <div class="px-8 py-7 bg-dBlue4 relative rounded-md">
+                <div class="max-w-2xl mx-auto">
+                  <p
+                    class="text-base capitalize leading-relaxed text-[#DAD8D8] mb-6"
+                  >
+                    fylo has improved our team productivity by an order of
+                    magnitude. since making the switch our team has become a
+                    well-oiled collaboration machine.
+                  </p>
+                </div>
+                <div class="flex wrap gap-3">
+                  <img
+                    src="./images/profile-1.jpg"
+                    alt="profile-1"
+                    class="rounded-full w-10 h-10"
+                  />
+                  <div>
+                    <p class="capitalize font-semibold text-white">
+                      satish patel
+                    </p>
+                    <p class="capitalize text-[#DAD8D8] text-sm">
+                      founder & CEO huddle
+                    </p>
+                  </div>
+                </div>
+                <div>
+                  <img
+                    src="./images/bg-quotes.png"
+                    alt="bg-quotes"
+                    class="absolute -top-8 left-0 w-10 lg:w-auto lg:-top-11"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="w-full md:w-1/2 lg:w-1/3 px-5 pt-8 md:pt-0">
+              <div class="px-8 py-7 rounded-md bg-dBlue4 relative">
+                <div class="max-w-2xl mx-auto">
+                  <p
+                    class="text-base capitalize leading-relaxed text-[#DAD8D8] mb-6"
+                  >
+                    fylo has improved our team productivity by an order of
+                    magnitude. since making the switch our team has become a
+                    well-oiled collaboration machine.
+                  </p>
+                </div>
+                <div class="flex flex-wrap gap-3">
+                  <img
+                    src="./images/profile-2.jpg"
+                    alt="profile-2"
+                    class="rounded-full w-10 h-10"
+                  />
+                  <div>
+                    <p class="capitalize font-semibold text-white">
+                      bruce mcKenzie
+                    </p>
+                    <p class="capitalize text-[#DAD8D8] text-sm">
+                      founder & CEO huddle
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="w-full md:w-1/2 lg:w-1/3 px-5 pt-8 md:pt-8 lg:pt-0">
+              <div class="px-8 py-7 rounded-md bg-dBlue4 relative">
+                <div class="max-w-2xl mx-auto">
+                  <p
+                    class="text-base capitalize leading-relaxed text-[#DAD8D8] mb-6"
+                  >
+                    fylo has improved our team productivity by an order of
+                    magnitude. since making the switch our team has become a
+                    well-oiled collaboration machine.
+                  </p>
+                </div>
+                <div class="flex flex-wrap gap-3">
+                  <img
+                    src="./images/profile-3.jpg"
+                    alt="profile-3"
+                    class="rounded-full w-10 h-10"
+                  />
+                  <div>
+                    <p class="capitalize font-semibold text-white">iva boyd</p>
+                    <p class="capitalize text-[#DAD8D8] text-sm">
+                      founder & CEO huddle
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- middle form -->
+      <section
+        class="flex flex-col absolute w-[80%] lg:w-[50%] -bottom-36 left-[50%] translate-x-[-50%]"
+      >
+        <div class="bg-[#1C2431] rounded-lg px-5 md:px-8 py-7">
+          <div class="mx-auto max-w-2xl">
+            <h1
+              class="capitalize text-center text-white text-xl md:text-3xl font-semibold mb-6"
+            >
+              get early access today
+            </h1>
+            <p class="text-center text-base md:text-lg text-[#DAD8D8] mb-7">
+              It only takes a minute to sign up and our free starter tier is
+              extremely generous. if you have any questions, our support team
+              would be happy to help you.
+            </p>
+          </div>
+          <div class="flex flex-col gap-4 md:flex-row justify-center">
+            <div class="w-full lg:w-[65%]">
+              <input
+                type="email"
+                class="py-3 pl-8 peer rounded-full w-full focus:outline-none mb-3"
+                placeholder="email@example.com"
+              />
+              <p
+                class="text-sm whitespace-nowrap capitalize ml-3 font-bold text-[#ff4242] hidden peer-invalid:block"
+              >
+                please enter a valid email address
+              </p>
+            </div>
+            <div>
+              <a
+                href="#"
+                class="text-white font-semibold block text-center mx-auto whitespace-nowrap bg-gradient-to-r from-[#65e2d9] to-[#339ecc] capitalize rounded-full px-6 py-3 hover:to-cyan-200"
+                >get started for free</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-[#0B1523] pt-56 pb-10">
+      <div class="container mx-auto px-5">
+        <div>
+          <svg
+            width="176"
+            height="52"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g fill="#FFF" fill-rule="evenodd">
+              <path
+                d="M0 16.372v.128l29.754 13.764 29.859-13.811v-.035L29.754 2.608 0 16.372zm10.727.064l19.028-8.802 19.03 8.802-19.031 8.801-19.027-8.801zM29.754 35.61L0 22.052v5.014l29.754 13.59L59.613 27.02v-5.015L29.754 35.61zm0 10.17L0 32.22v5.015l29.754 13.591L59.613 37.19v-5.014L29.754 45.78zM169.216 26.22a8.564 8.564 0 0 0-2.285-5.892 7.675 7.675 0 0 0-2.473-1.768 7.259 7.259 0 0 0-3.015-.636 7.259 7.259 0 0 0-3.015.636 7.674 7.674 0 0 0-2.473 1.768 8.565 8.565 0 0 0-2.285 5.893 8.564 8.564 0 0 0 2.285 5.893 7.674 7.674 0 0 0 2.473 1.767 7.258 7.258 0 0 0 3.015.637 7.258 7.258 0 0 0 3.015-.637 7.675 7.675 0 0 0 2.473-1.767 8.563 8.563 0 0 0 2.285-5.893zm6.784 0c0 2.044-.377 3.937-1.13 5.681a13.849 13.849 0 0 1-3.11 4.526c-1.319 1.273-2.866 2.279-4.64 3.017-1.775.739-3.667 1.108-5.677 1.108s-3.894-.37-5.653-1.108a14.659 14.659 0 0 1-4.617-3.04 14.116 14.116 0 0 1-3.11-4.55c-.753-1.744-1.13-3.622-1.13-5.633 0-1.98.385-3.842 1.154-5.586a14.718 14.718 0 0 1 3.133-4.573 14.457 14.457 0 0 1 4.617-3.064c1.759-.739 3.627-1.108 5.606-1.108 2.01 0 3.902.369 5.677 1.108 1.774.738 3.321 1.744 4.64 3.017 1.32 1.272 2.356 2.789 3.11 4.549.753 1.76 1.13 3.645 1.13 5.657zm-31.422 13.483a9.087 9.087 0 0 1-1.814.613 9.217 9.217 0 0 1-2.096.236c-1.005 0-1.971-.134-2.898-.4a6.347 6.347 0 0 1-2.426-1.297c-.69-.597-1.24-1.375-1.649-2.334-.408-.958-.612-2.113-.612-3.465V.717h6.925v31.16c0 1.132.228 1.91.683 2.334.456.425.997.637 1.625.637.786 0 1.54-.236 2.262-.707v5.562zM130.02 12.55l-12.249 32.386c-.91 2.42-2.104 4.164-3.58 5.233-1.476 1.068-3.235 1.603-5.277 1.603a8.4 8.4 0 0 1-1.036-.071 7.784 7.784 0 0 1-1.083-.212l-2.262-6.317a8.974 8.974 0 0 0 1.65.59 6.61 6.61 0 0 0 1.6.211c1.069 0 2.042-.243 2.922-.73.879-.488 1.554-1.391 2.025-2.711l.943-2.734-10.506-27.248h7.396l6.266 17.536 5.889-17.536h7.302zm-28.502-4.102H83.806v8.769h17.478v5.94H83.806v16.688h-7.16V2.179h24.873v6.27z"
+              />
+            </g>
+          </svg>
+        </div>
+        <div
+          class="flex flex-col xl:flex-row items-center mt-8 justify-between"
+        >
+          <div class="w-full">
+            <div class="max-w-lg">
+              <p class="text-base flex gap-4 text-[#DAD8D8] mb-6">
+                <i class="fa-solid text-2xl fa-location-dot"></i>Lorem ipsum
+                dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua
+              </p>
+            </div>
+          </div>
+          <div class="w-full xl:pl-6">
+            <div>
+              <p class="text-base mb-5 flex text-[#DAD8D8]">
+                <i
+                  class="fa-solid fa-phone-volume text-2xl -rotate-45 mr-4"
+                ></i>
+                +1-543-123-4567
+              </p>
+              <p class="text-base flex text-[#DAD8D8] mb-10">
+                <i class="fa-solid fa-envelope text-2xl mr-4"></i>
+                example@fylo.com
+              </p>
+            </div>
+          </div>
+          <div class="w-full">
+            <div class="flex flex-col xl:flex-row gap-10 xl:gap-20">
+              <ul class="flex flex-col gap-4 capitalize text-[#DAD8D8]">
+                <li>
+                  <a
+                    href="#"
+                    class="hover:text-white transition duration-100 ease-in"
+                    >about us</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="hover:text-white transition duration-100 ease-in"
+                    >jobs</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="hover:text-white transition duration-100 ease-in"
+                    >press</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="hover:text-white transition duration-100 ease-in"
+                    >blog</a
+                  >
+                </li>
+              </ul>
+              <ul class="flex flex-col gap-4 capitalize text-[#DAD8D8]">
+                <li>
+                  <a
+                    href="#"
+                    class="hover:text-white transition duration-100 ease-in"
+                    >contact us</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="hover:text-white transition duration-100 ease-in"
+                    >terms</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="hover:text-white transition duration-100 ease-in"
+                    >privacy</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="w-full mt-28 xl:-mt-28">
+            <div class="flex justify-center items-center">
+              <a
+                href="#"
+                class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-[#DAD8D8] hover:bg-[#65e2d9]"
+              >
+                <svg
+                  role="img"
+                  width="20"
+                  fill="#DAD8D8"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>Facebook</title>
+                  <path
+                    d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
+                  />
+                </svg>
+              </a>
+              <a
+                href="#"
+                class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-[#DAD8D8] hover:bg-[#65e2d9]"
+              >
+                <svg
+                  role="img"
+                  width="20"
+                  fill="#DAD8D8"
+                  class="fill current"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>Twitter</title>
+                  <path
+                    d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"
+                  />
+                </svg>
+              </a>
+              <a
+                href="#"
+                class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-[#DAD8D8] hover:bg-[#65e2d9]"
+              >
+                <svg
+                  role="img"
+                  width="20"
+                  fill="#DAD8D8"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>Instagram</title>
+                  <path
+                    d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
